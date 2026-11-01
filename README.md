@@ -146,23 +146,47 @@ Consistency > Intensity.
 ## ⭐ Repository Structure
 
 ```
-DSA_Prep/
+dsa-prep/
 │
-├── Arrays/
-├── Strings/
-├── Hashing/
-├── LinkedList/
-├── Stack/
-├── Queue/
-├── BinarySearch/
-├── Trees/
-├── Heap/
-├── Graph/
-├── DynamicProgramming/
-├── Greedy/
-├── Backtracking/
-├── BitManipulation/
-└── Tries/
+├── week1/
+│   ├── README.md              # weekly summary: problems, patterns, solution links
+│   ├── day1/
+│   │   ├── two_sum.py
+│   │   └── best_time_stocks.py
+│   ├── day2/
+│   │   ├── container_water.py
+│   │   ├── three_sum.py
+│   │   ├── valid_anagram.py
+│   │   └── ...
+│   ├── day3/
+│   ├── ...
+│   └── day7/
+│
+├── week2/
+│   ├── README.md
+│   └── day8/ ... day14/
+│
+├── weekN/
+│
+└── README.md
+```
+
+**Conventions**
+
+- One folder per week (`week1`, `week2`, ...), one subfolder per day (`day1`, `day2`, ...)
+- One Python file per problem, named in `snake_case`
+- Each week has a `README.md` summarising the problems solved, the patterns used and links to the solutions
+- Every solution starts with a header block:
+
+```python
+# Problem: Valid Anagram
+# LeetCode: #242
+# Difficulty: Easy
+# Topic: string / HashTable
+# Pattern: Frequency Count / Hashmap
+# Time: O(s+t) | O(s+t)
+# Date: Day 2 of 90
+# Status: Solved ✓ / review
 ```
 
 ---
@@ -182,7 +206,7 @@ This repository is part of my preparation for:
 
 **GitHub:** https://github.com/Pratham-1024
 
-**LinkedIn:** *(Add your LinkedIn URL here)*
+**LinkedIn:** https://www.linkedin.com/in/pratham-kumar-shaw-pks1024/
 
 ---
 
